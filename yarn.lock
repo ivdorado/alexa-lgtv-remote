@@ -2371,9 +2371,9 @@ i18next-sync-fs-backend@^1.1.0:
     js-yaml "3.5.4"
     json5 "0.5.0"
 
-i18next@^11.2.3:
-  version "11.2.3"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-11.2.3.tgz#cc29400460ede53ecc0a3a399e3497e82a1d830e"
+i18next@^11.10.0:
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-11.10.0.tgz#901231c840ba2bbf89b672a7f65d50fb2250626e"
 
 iconv-lite@0.4.19, iconv-lite@^0.4.17:
   version "0.4.19"
