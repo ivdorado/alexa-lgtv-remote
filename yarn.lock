@@ -146,9 +146,9 @@ ajv@^6.0.1:
     json-schema-traverse "^0.3.0"
     uri-js "^3.0.2"
 
-alexa-app@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/alexa-app/-/alexa-app-4.2.2.tgz#bc5a21b442765c0294514d20468438dee9989381"
+alexa-app@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/alexa-app/-/alexa-app-4.2.3.tgz#394ef21368a1ef048d45bd4b42ae4cad958da9bf"
   dependencies:
     "@types/chai-as-promised" "^7.1.0"
     alexa-utterances "^0.2.0"
