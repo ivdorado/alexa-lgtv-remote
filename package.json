@@ -27,7 +27,7 @@
     "url": "https://github.com/voydz/alexa-lgtv-remote/issues"
   },
   "dependencies": {
-    "alexa-app": "^4.2.2",
+    "alexa-app": "^4.2.3",
     "dotenv": "^5.0.1",
     "express": "^4.14.1",
     "i18next": "^11.2.3",
