@@ -1,0 +1,46 @@
+{
+    "TurnDeviceOnUtterances": [
+    	"encender", 
+        "encender { |tv}"
+    ],
+    "TurnDeviceOffUtterances": [
+        "apagar",
+        "{ |to} apagar { |tv}"
+    ],
+    "SwitchDeviceMuteUtterances": [
+    	"{ |to} mutar { |tv}",
+        "silenciar"
+    ],
+    "SwitchDeviceUnmuteUtterances": [
+        "desmutar { |tv}",
+        "apagar mute"
+    ],
+    "LaunchDeviceAppUtterances": [
+        " abrir {-|app_id}",
+        "{iniciar|abrir} la {app|aplicación} {-|app_id}"
+    ],
+    "SwitchDeviceInputUtterances": [
+        "cambiar input a {-|input_id}",
+        "cambiar a {-|input_id}"
+    ],
+    "ControlDeviceMediaPlayUtterances": [
+        "{iniciar|resumir} reproducción",
+        "reproducir { |programa}",
+        "resumir"
+    ],
+    "ControlDeviceMediaPauseUtterances": [
+        "pausar { | programa | reproducción}"
+    ],
+    "ControlDeviceMediaStopUtterances": [
+        "parar programa"
+    ],
+    "Connected" : "Conectado.",
+    "Disconnected" : "Desconectado.",
+    "OK" : "OK.",
+    "DeviceOff" : "El dispositivo se ha apagado.",
+    "DeviceProblem" : "Hay un problema con el dispositivo.",
+    "HelpOutput" : "puedes decir \"pedir a lg encender tv\". También puedes decir parar o salir para salir del skill.",
+    "RePrompt" : "¿Qué quieres hacer?",
+    "StopOutput" : "OK, ya está.",
+    "CancelOutput" : "Sin problema. Petición cancelada."
+}

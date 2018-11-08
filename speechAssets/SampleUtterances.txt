@@ -1,46 +1,32 @@
-TurnDeviceOn on
-TurnDeviceOn turn on
-TurnDeviceOn to turn on
-TurnDeviceOn turn on tv
-TurnDeviceOn to turn on tv
-TurnDeviceOff off
-TurnDeviceOff turn off
-TurnDeviceOff to turn off
-TurnDeviceOff turn off tv
-TurnDeviceOff to turn off tv
-SwitchDeviceMute mute
-SwitchDeviceMute to mute
-SwitchDeviceMute mute tv
-SwitchDeviceMute to mute tv
-SwitchDeviceMute turn on mute
-SwitchDeviceUnmute un mute
-SwitchDeviceUnmute to un mute
-SwitchDeviceUnmute unmute
-SwitchDeviceUnmute to unmute
-SwitchDeviceUnmute un mute tv
-SwitchDeviceUnmute to un mute tv
-SwitchDeviceUnmute unmute tv
-SwitchDeviceUnmute to unmute tv
-SwitchDeviceUnmute turn off mute
-LaunchDeviceApp to open {app_id}
-LaunchDeviceApp start the app {app_id}
-LaunchDeviceApp open the app {app_id}
-LaunchDeviceApp start the application {app_id}
-LaunchDeviceApp open the application {app_id}
-LaunchDeviceApp start the {app_id} app
-LaunchDeviceApp open the {app_id} app
-LaunchDeviceApp start the {app_id} application
-LaunchDeviceApp open the {app_id} application
-SwitchDeviceInput change input to {input_id}
-SwitchDeviceInput switch to {input_id}
-SwitchDeviceInput switch to the {input_id}
-ControlDeviceMediaPlay start playback
-ControlDeviceMediaPlay resume playback
-ControlDeviceMediaPlay play
-ControlDeviceMediaPlay play show
-ControlDeviceMediaPlay resume
-ControlDeviceMediaPause pause
-ControlDeviceMediaPause pause show
-ControlDeviceMediaPause pause playback
-ControlDeviceMediaStop stop show
-ControlDeviceMediaStop stop show
+TurnDeviceOn encender
+TurnDeviceOn encender
+TurnDeviceOn encender tv
+TurnDeviceOff apagar
+TurnDeviceOff apagar
+TurnDeviceOff to apagar
+TurnDeviceOff apagar tv
+TurnDeviceOff to apagar tv
+SwitchDeviceMute mutar
+SwitchDeviceMute to mutar
+SwitchDeviceMute mutar tv
+SwitchDeviceMute to mutar tv
+SwitchDeviceMute silenciar
+SwitchDeviceUnmute desmutar
+SwitchDeviceUnmute desmutar tv
+SwitchDeviceUnmute apagar mute
+LaunchDeviceApp abrir {app_id}
+LaunchDeviceApp iniciar la app {app_id}
+LaunchDeviceApp abrir la app {app_id}
+LaunchDeviceApp iniciar la aplicación {app_id}
+LaunchDeviceApp abrir la aplicación {app_id}
+SwitchDeviceInput cambiar input a {input_id}
+SwitchDeviceInput cambiar a {input_id}
+ControlDeviceMediaPlay iniciar reproducción
+ControlDeviceMediaPlay resumir reproducción
+ControlDeviceMediaPlay reproducir
+ControlDeviceMediaPlay reproducir programa
+ControlDeviceMediaPlay resumir
+ControlDeviceMediaPause pausar
+ControlDeviceMediaPause pausar programa
+ControlDeviceMediaPause pausar reproducción
+ControlDeviceMediaStop parar programa
