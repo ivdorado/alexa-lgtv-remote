@@ -29,6 +29,7 @@ setInterval(function() {
 
 alexaApp.express({
     expressApp: app,
+    checkCert: false,
 });
 
 app.pre = function(req, res, type) {
