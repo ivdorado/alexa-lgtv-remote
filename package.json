@@ -4,12 +4,11 @@
   "description": "Control your webOS powered LG TV with amazon's alexa.",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "gulp build && node dist/index.js",
     "test": "gulp lint",
     "dev": "flow-typed install && npm run start",
     "watch": "gulp serve",
-    "docs": "node dist/bin/docgen.js",
-    "postinstall": "gulp build"
+    "docs": "gulp build && node dist/bin/docgen.js"
   },
   "repository": {
     "type": "git",
@@ -35,21 +34,21 @@
     "i18next-sync-fs-backend": "^1.1.0",
     "lgtv2": "^1.4.1",
     "promise": "^8.0.1",
-    "wake_on_lan": "^1.0.0"
+    "wake_on_lan": "^1.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
-    "eslint": "^4.15.0",
-    "eslint-config-google": "^0.9.1",
-    "eslint-plugin-flowtype": "^2.46.3",
     "flow-bin": "^0.72.0",
     "flow-typed": "^2.0.0",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^7.0.0",
-    "gulp-eslint": "^4.0.1",
     "merge-stream": "^1.0.1",
     "nodemon": "^1.17.3"
   }
