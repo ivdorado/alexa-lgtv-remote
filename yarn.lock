@@ -4574,7 +4574,7 @@ wake_on_lan@^1.0.0:
     minimist "^1.2.0"
 
 websocket@^1.0.24:
-  version "1.0.25"
+  version "1.0.28"
   resolved "https://registry.yarnpkg.com/websocket/-/websocket-1.0.25.tgz#998ec790f0a3eacb8b08b50a4350026692a11958"
   dependencies:
     debug "^2.2.0"
