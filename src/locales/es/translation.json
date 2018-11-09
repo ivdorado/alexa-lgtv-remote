@@ -34,6 +34,15 @@
     "ControlDeviceMediaStopUtterances": [
         "parar programa"
     ],
+    "SetVolumeUpUtterances": [
+        "subir el volmen", "suba la tele"
+    ],
+    "SetVolumeDownUtterances": [
+        "bajar el volmen", "baje la tele"
+    ],
+    "SetVolumeUtterances": [
+        "ponga el volmen a {volume_level}"
+    ],
     "Connected" : "Conectado.",
     "Disconnected" : "Desconectado.",
     "OK" : "OK.",

@@ -13,7 +13,10 @@ import {
     ControlDeviceMediaStop,
     AmazonHelp,
     AmazonStop,
-    AmazonCancel
+    AmazonCancel,
+    SetVolume,
+    SetVolumeUp,
+    SetVolumeDown
 } from './dispatcher';
 
 import alexa from 'alexa-app';
@@ -41,6 +44,23 @@ app.intent('SwitchDeviceUnmute', {
     'slots': {},
     'utterances': i18next.t('SwitchDeviceUnmuteUtterances', { returnObjects: true })
 }, SwitchDeviceUnmute);
+
+app.intent('SetVolumeUp', {
+    'slots': {},
+    'utterances': i18next.t('SetVolumeUpUtterances', { returnObjects: true })
+}, SetVolumeUp);
+
+app.intent('SetVolumeDown', {
+    'slots': {},
+    'utterances': i18next.t('SetVolumeDownUtterances', { returnObjects: true })
+}, SetVolumeDown);
+
+app.intent('SetVolume', {
+    'slots': {
+        'volume_level': 'AMAZON.NUMBER'
+    },
+    'utterances': i18next.t('SetVolumeUtterances', { returnObjects: true })
+}, SetVolume);
 
 app.intent('LaunchDeviceApp', {
     'slots': {

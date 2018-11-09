@@ -59,6 +59,18 @@ class Remote {
             });
     }
 
+    volumeUp(): Promise {
+        return this.request('ssap://audio/volumeUp');
+    }
+
+    volumeDown(): Promise {
+        return this.request('ssap://audio/volumeDown');
+    }
+
+    setVolume(volumeLevel): Promise {
+        return this.request('ssap://audio/setVolume', {volume: parseInt(volumeLevel)});
+    }
+
     turnOff(): Promise {
         return this.request('ssap://system/turnOff')
             .then(() => {

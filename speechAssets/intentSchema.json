@@ -39,6 +39,33 @@
                ]
             },
             {
+               "name": "SetVolumeUp",
+               "samples": [
+                  "subir el volmen",
+                  "suba la tele"
+               ]
+            },
+            {
+               "name": "SetVolumeDown",
+               "samples": [
+                  "bajar el volmen",
+                  "baje la tele"
+               ]
+            },
+            {
+               "name": "SetVolume",
+               "samples": [
+                  "ponga el volmen a {volume_level}"
+               ],
+               "slots": [
+                  {
+                     "name": "volume_level",
+                     "type": "AMAZON.NUMBER",
+                     "samples": []
+                  }
+               ]
+            },
+            {
                "name": "LaunchDeviceApp",
                "samples": [
                   " abrir {app_id}",

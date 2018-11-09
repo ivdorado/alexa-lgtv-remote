@@ -14,6 +14,11 @@ SwitchDeviceMute silenciar
 SwitchDeviceUnmute desmutar
 SwitchDeviceUnmute desmutar tv
 SwitchDeviceUnmute apagar mute
+SetVolumeUp subir el volmen
+SetVolumeUp suba la tele
+SetVolumeDown bajar el volmen
+SetVolumeDown baje la tele
+SetVolume ponga el volmen a volume_level
 LaunchDeviceApp abrir {app_id}
 LaunchDeviceApp iniciar la app {app_id}
 LaunchDeviceApp abrir la app {app_id}

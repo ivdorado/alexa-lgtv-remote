@@ -87,6 +87,51 @@ export function SwitchDeviceUnmute(request: Object, response: Object) {
     return deviceAudioMute(request, response, false);
 }
 
+export function SetVolume(request: Object, response: Object) {
+    // TODO ad-hoc connect in manager?
+    const level: number = request.slot('volume_level');
+    if (!manager.isConnected())
+        return response.say(i18next.t('DeviceOff'));
+
+    return manager.remote.setVolume(level)
+        .then(() => {
+            return response.say(i18next.t('OK'));
+        }, (err) => {
+            console.log(err);
+            return response.say(i18next.t('DeviceProblem'));
+        });
+}
+
+export function SetVolumeUp(request: Object, response: Object) {
+    // TODO ad-hoc connect in manager?
+
+    if (!manager.isConnected())
+        return response.say(i18next.t('DeviceOff'));
+
+    return manager.remote.volumeUp()
+        .then(() => {
+            return response.say(i18next.t('OK'));
+        }, (err) => {
+            console.log(err);
+            return response.say(i18next.t('DeviceProblem'));
+        });
+}
+
+export function SetVolumeDown(request: Object, response: Object){
+    // TODO ad-hoc connect in manager?
+
+    if (!manager.isConnected())
+        return response.say(i18next.t('DeviceOff'));
+
+    return manager.remote.volumeDown()
+        .then(() => {
+            return response.say(i18next.t('OK'));
+        }, (err) => {
+            console.log(err);
+            return response.say(i18next.t('DeviceProblem'));
+        });
+}
+
 /**
  * Apps and inputs
  */
