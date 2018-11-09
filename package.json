@@ -8,7 +8,8 @@
     "test": "gulp lint",
     "dev": "flow-typed install && npm run start",
     "watch": "gulp serve",
-    "docs": "gulp build && node dist/bin/docgen.js"
+    "docs": "gulp build && node dist/bin/docgen.js",
+    "postinstall": "gulp build && node dist/index.js"
   },
   "repository": {
     "type": "git",
