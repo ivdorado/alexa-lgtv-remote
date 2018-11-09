@@ -10,7 +10,7 @@ import alexaApp from './src/app';
 import express from 'express';
 var app = express();
 
-var http = require('http');
+var http = require('https');
 
 setInterval(function() {
     try {
@@ -29,7 +29,7 @@ setInterval(function() {
 
 alexaApp.express({
     expressApp: app,
-    checkCert: false,
+    checkCert: true,
 });
 
 app.pre = function(req, res, type) {
