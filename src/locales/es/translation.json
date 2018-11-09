@@ -45,11 +45,11 @@
     ],
     "Connected" : "Conectado.",
     "Disconnected" : "Desconectado.",
-    "OK" : "OK.",
+    "OK" : "Vale, tronco.",
     "DeviceOff" : "El dispositivo se ha apagado.",
     "DeviceProblem" : "Hay un problema con el dispositivo.",
     "HelpOutput" : "puedes decir \"pedir a lg encender tv\". También puedes decir parar o salir para salir del skill.",
     "RePrompt" : "¿Qué quieres hacer?",
-    "StopOutput" : "OK, ya está.",
+    "StopOutput" : "Vale, máquina, ya está.",
     "CancelOutput" : "Sin problema. Petición cancelada."
 }
